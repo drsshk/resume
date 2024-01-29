@@ -1,1 +1,1 @@
-https://drsshk.github.io/resume/
+https://darusishak.pages.dev/
