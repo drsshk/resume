@@ -54,6 +54,11 @@ img {
     border-radius: auto;
 }
 
+.name   {
+    max-width: 600px; 
+    font-size: 100px;
+}
+
 .aboutme {
     width: 400px;
     text-align: justify;
@@ -68,6 +73,7 @@ img {
     padding: 10px 20px;
     font-size: 16px;
     line-height: 20px;
+    flex-wrap: wrap;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -84,3 +90,21 @@ img {
 }
 
 
+@media only screen and (max-width: 844px) {
+    /* For mobile phones: */
+
+    .name {
+        font-size: 50%; 
+    }
+
+
+    .aboutme {
+        width: 50%;
+        
+    }
+
+    .nav-button {
+        display: flex;
+        flex-direction: column;
+    }
+  }
